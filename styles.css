@@ -94,3 +94,15 @@ body #timer {
         font-size: 16px; /* Reducir el tamaño de los números en el círculo */
     }
 }
+
+@media (max-width: 400px) {
+    
+    .circulo {
+        width: 60px; /* Tamaño menor para el círculo en móvil */
+        height: 60px;
+    }
+
+    .circulo div {
+        font-size: 12px; /* Reducir el tamaño de los números en el círculo */
+    }
+}
