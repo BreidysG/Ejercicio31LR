@@ -45,7 +45,7 @@ function displayCircles(circleNumber) {
     if (window.innerHeight <= 600) {
         sizes = [37.5, 50, 65, 85, 100, 112.5, 125]; // Reducir alturas en dispositivos móviles
     }if (window.innerWidth <= 400) {
-        sizes = [37.5, 50, 65, 85, 100, 112.5, 125]; // Reducir alturas en dispositivos móviles
+        sizes = [45, 50, 65, 85, 100, 112.5, 125]; // Reducir alturas en dispositivos móviles
     }
 
     // Crear círculo
